@@ -250,7 +250,7 @@ Will work on both org-mode and any mode that accepts plain html."
         "N" 'widen
         "O" 'org-clock-out
         "q" 'org-clock-cancel
-        "R" 'org-refile
+        "r" 'org-refile
         "s" 'org-schedule
 
         ;; insertion of common elements
