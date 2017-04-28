@@ -1,0 +1,186 @@
+* Blogs                                                                         :elfeed:
+:PROPERTIES:
+:ID: elfeed
+:END:
+** Computers                                                                    :computers:
+*** http://joeduffyblog.com/feed.xml
+*** http://jmct.cc/atom.xml
+*** https://medium.com/feed/@ra
+*** http://inconvergent.net/atom.xml
+*** https://ericlippert.com/feed/
+*** http://www.tedunangst.com/inks/rss
+*** https://blogs.janestreet.com/author/yminsky/feed/
+*** http://www.tedunangst.com/flak/rss
+*** https://coreos.com/atom.xml
+*** http://taotetek.github.io/oldschool.systems//index.xml
+*** http://feeds.feedburner.com/RobertMosolgo
+*** http://antirez.com/rss
+*** http://blog.thezerobit.com/atom.xml
+*** http://msm.grumpybumpers.com/?feed=rss2
+*** http://josf.info/atom.xml
+*** http://pchiusano.github.io/feed.xml
+*** https://lexi-lambda.github.io/feeds/all.rss.xml
+*** http://eev.ee/feeds/atom.xml
+*** http://psy-lob-saw.blogspot.com/feeds/posts/default
+*** http://blog.kingcons.io/rss.xml
+*** http://jsnell.iki.fi/blog/rss-index.xml
+*** http://www.yosefk.com/blog/feed
+*** http://danluu.com/atom.xml
+*** http://cmacr.ae/rss.xml
+*** http://pointersgonewild.com/feed/
+*** http://calculist.org/feeds/all.atom.xml
+*** http://zinascii.com/writing-feed.xml
+*** http://blog.calyptus.eu/feed.xml
+*** http://al3x.net/atom.xml
+*** http://augustl.com/atom.xml
+*** http://jacquesmattheij.com/rss.xml
+*** https://michaelfeathers.silvrback.com/feed
+*** http://www.jneen.net/rss
+*** http://www.toccata.io/feed.xml
+*** http://peter.michaux.ca/feed/atom.xml
+*** http://www.pvk.ca/atom.xml
+*** http://mattgreer.org/feed.xml
+*** http://mcfunley.com/feed/atom
+*** http://blog.acolyer.org/feed/
+*** http://wingolog.org/feed/atom
+*** http://feedpress.me/jlongster
+*** http://blog.jessitron.com/feeds/posts/default
+*** http://www.somerandomidiot.com/atom.xml
+*** https://alexgaynor.net/feed.xml
+*** http://nullprogram.com/feed/
+*** http://feeds.feedburner.com/holman
+*** http://maryrosecook.com/blog/feed
+*** http://incidentalcomplexity.com/atom.xml
+*** http://blog.higher-order.com/atom.xml
+*** http://axisofeval.blogspot.com/feeds/posts/default
+*** http://feeds2.feedburner.com/stevelosh
+*** http://blog.nullspace.io/feed.xml
+*** http://christophermeiklejohn.com/feed.xml
+*** http://blog.regehr.org/feed
+*** http://just-bottom.blogspot.com/feeds/posts/default
+*** http://alarmingdevelopment.org/?feed=rss2
+*** http://feeds2.feedburner.com/codahale
+*** http://luxlang.blogspot.com/feeds/posts/default
+*** http://hueypetersen.com/rss.xml
+*** http://www.cowlark.com/feed.rss
+*** http://joelmccracken.github.io/feed.xml
+*** http://rauchg.com/feed/
+*** http://rocketnia.wordpress.com/feed/
+*** http://okmij.org/ftp/rss.xml
+*** http://mutable-states.com/feeds/all.rss.xml
+*** http://feeds.feedburner.com/pbailis
+*** http://patrickthomson.ghost.io/rss/
+*** http://dataspaceproject.wordpress.com/feed/
+*** http://pcwalton.github.io/atom.xml
+*** http://vagabond.github.io/atom.xml
+*** http://worrydream.com/feed.xml
+*** http://planet.elm-lang.org/feeds.xml
+*** http://lambda-the-ultimate.org/rss.xml
+*** http://tonyarcieri.com/feed
+*** http://3ofcoins.net/blog/feed/
+*** http://robotlolita.github.io/atom.xml
+*** http://rachelbythebay.com/w/atom.xml
+*** http://feeds.feedburner.com/amirmc
+*** http://kamalmarhubi.com/blog/feed.xml
+*** http://blog.colinwilliams.name/atom.xml
+*** http://feeds.feedburner.com/ArcaneSentiment
+*** http://jspha.com/feed.rss
+*** http://feeds.feedburner.com/reiddraper
+*** http://mrale.ph/atom.xml
+*** http://gbracha.blogspot.com/feeds/posts/default
+*** http://evanjones.ca/index.rss
+*** http://tomasp.net/rss.xml
+*** http://michaelochurch.wordpress.com/feed/
+*** http://ryanwaggoner.com/feed/rss/
+*** http://chromaticleaves.com/rss.xml
+*** http://scattered-thoughts.net/atom.xml
+*** http://funcall.blogspot.com/feeds/posts/default
+*** http://blog.burntsushi.net/index.xml
+*** http://awelonblue.wordpress.com/feed/                                       :mustread:
+*** http://www.ifup.org/index.xml
+*** https://codewords.hackerschool.com/feed.xml
+*** http://www.rntz.net/blog/atom.xml
+*** http://blog.thoughtcrime.org/rss.xml
+*** http://nicholaskariniemi.github.io/feed.xml
+*** http://clojurescriptmadeeasy.com/feed.xml
+*** http://aphyr.com/posts.atom
+*** http://rigsomelight.com/feed.xml
+*** https://medium.com/feed/@kovasb/
+*** http://michaeldrogalis.github.io/feed.xml
+*** http://yogthos.net/feed.xml
+*** http://insideclojure.org/feed.xml
+*** http://feeds.feedburner.com/thoughtsfromtheredplanet?format=xml
+*** http://blog.fikesfarm.com/feed.xml
+*** http://seancorfield.github.io/atom.xml
+*** http://feeds.feedburner.com/PaulStadig
+*** http://insideclojure.org/feed
+*** http://www.booleanknot.com/blog/feed.xml
+*** http://www.arrdem.com/feeds/all.xml
+*** https://nervous.io/feed.xml
+*** http://anmonteiro.com/atom.xml
+*** http://adzerk.com/tech/feed.xml
+*** http://blog.muhuk.com/rss.xml
+*** http://blog.juxt.pro/rss.xml
+*** http://www.brandonbloom.name/atom.xml                                       :mustread:
+*** http://www.michaelnygard.com/blog/atom.xml
+*** https://medium.com/feed/@thi.ng
+*** http://escherize.com/atom.xml
+*** http://blog.getprismatic.com/rss/
+*** https://blog.guillermowinkler.com/atom.xml
+*** http://www.pauldee.org/blog/feed/
+*** http://www.bytopia.org/rss-feed
+*** http://www.rkn.io/feed.xml
+*** http://blog.klipse.tech/feed.xml
+*** http://adambard.com/blog/feed.xml
+*** http://www.martinklepsch.org/feed.xml
+*** http://feeds.cognitect.com/blog/feed.rss                                    :mustread:
+*** http://endlessparentheses.com/atom.xml
+*** http://feeds.feedburner.com/emptywheel/cAUy
+*** http://bartoszmilewski.com/feed/
+*** http://feeds.feedburner.com/conal
+*** http://brianmckenna.org/blog/feed
+*** https://medium.com/feed/@unbalancedparen
+*** https://medium.com/feed/@jlouis666
+*** http://joearms.github.io/feed.xml                                           :mustread:
+*** https://www.adamfrey.me/atom.xml
+*** Clojure                                                                     :clojure:
+**** http://www.lispcast.com/feed
+**** http://tonsky.me/blog/atom.xml                                             :mustread:
+**** http://swannodette.github.io/atom.xml                                    :mustread:
+**** http://www.stuttaford.me/atom.xml
+**** http://stuartsierra.com/feed
+**** http://cemerick.com/feed/                                                  :mustread:
+**** http://gigasquidsoftware.com/atom.xml
+**** http://martintrojer.github.io/atom.xml
+**** http://realworldclojure.com/feed.xml
+**** http://jonase.github.io/nil-recur/feed.xml
+**** http://z.caudate.me/rss/
+**** http://clj-me.cgrand.net/feed/
+
+*** Emacs                                                                       :emacs:
+**** http://www.masteringemacs.org/feed
+
+**** http://emacsredux.com/atom.xml
+**** http://planet.emacsen.org/atom.xml
+**** http://oremacs.com/atom.xml
+
+*** http://blog.fogus.me/feed/                                                  :mustread:
+
+** Politics                                                                     :politics:
+*** History                                                                     :history:
+**** http://williamhogeland.wordpress.com/feed/                               :mustread:
+**** http://coreyrobin.com/feed/                                              :mustread:
+
+**** http://pando.com/author/garybrecher/feed/                                :mustread:
+
+*** http://pressthink.org/feed/
+*** http://www.theatlantic.com/feed/author/ta-nehisi-coates/                  :mustread:
+
+*** http://fivethirtyeight.com/politics/feed/
+*** https://medium.com/feed/@matthewstoller                                   :mustread:
+*** https://www.jacobinmag.com/category/blogs/feed/
+*** http://fivethirtyeight.com/economics/feed/
+*** http://www.interfluidity.com/feed
+
+** Sports                                                                       :sports:
+*** http://fivethirtyeight.com/sports/feed/
