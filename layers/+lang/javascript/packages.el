@@ -187,7 +187,10 @@
 
 (defun javascript/init-json-mode ()
   (use-package json-mode
-    :defer t))
+    :defer t
+    :config
+    (progn
+      (setq-default js-indent-level 2))))
 
 (defun javascript/init-json-snatcher ()
   (use-package json-snatcher
