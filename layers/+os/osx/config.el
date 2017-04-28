@@ -9,7 +9,7 @@
 ;;
 ;;; License: GPLv3
 
-(defvar osx-use-option-as-meta t
+(defvar osx-use-option-as-meta nil
   "If non nil the option key is mapped to meta. Set to `nil` if you need the
   option key to type common characters.")
 

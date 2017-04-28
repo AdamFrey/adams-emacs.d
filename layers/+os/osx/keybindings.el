@@ -14,14 +14,15 @@
 
   ;; this is only applicable to GUI mode
   (when (display-graphic-p)
-    ;; Treat command as super
-    (setq mac-command-key-is-meta nil)
-    (setq mac-command-modifier 'super)
+    ;; Treat command as meta
+    (setq mac-command-key-is-meta nil) 
+    (setq mac-command-modifier 'meta)
 
     (when osx-use-option-as-meta
       ;; Treat option as meta
       (setq mac-option-key-is-meta t))
-    (setq mac-option-modifier (if osx-use-option-as-meta 'meta nil))
+    (setq mac-option-modifier nil)
+    ;;(setq mac-option-modifier (if osx-use-option-as-meta 'meta nil))
 
     ;; Keybindings
     (global-set-key (kbd "s-=") 'spacemacs/scale-up-font)
