@@ -35,6 +35,7 @@
         (add-to-list x 'cider-find-var)))
     :config
     (progn
+      (add-hook 'cider-repl-mode-hook #'paredit-mode)
       ;; add support for golden-ratio
       (with-eval-after-load 'golden-ratio
         (push 'cider-popup-buffer-quit-function golden-ratio-extra-commands))
@@ -61,9 +62,9 @@
         (kbd "T")   'cider-stacktrace-toggle-tooling)
 
       ;; open cider-doc directly and close it with q
-      (setq cider-prompt-for-symbol nil)
+      (setq cider-prompt-for-symbol evilified)
 
-      (evilified-state-evilify cider-docview-mode cider-docview-mode-map
+      (nil-state-evilify cider-docview-mode cider-docview-mode-map
         (kbd "q") 'cider-popup-buffer-quit)
 
       (evilified-state-evilify cider-inspector-mode cider-inspector-mode-map
@@ -247,6 +248,9 @@
       (dolist (m '(clojure-mode clojurec-mode clojurescript-mode clojurex-mode))
         (spacemacs/set-leader-keys-for-major-mode m
           "fl" 'clojure-align))
+
+      (dolist (m '(clojure-mode-hook clojurescript-mode-hook))
+        (add-hook m #'paredit-mode))
 
       (when clojure-enable-fancify-symbols
         (dolist (m '(clojure-mode clojurescript-mode clojurec-mode clojurex-mode))
