@@ -125,6 +125,9 @@
       (spacemacs/set-leader-keys-for-major-mode 'emacs-lisp-mode
         "dm" 'spacemacs/macrostep-transient-state/body))))
 
+(defun emacs-lisp/post-init-paredit ()
+  (add-hook 'emacs-lisp-mode-hook #'paredit-mode))
+
 (defun emacs-lisp/post-init-evil ()
   (add-hook 'emacs-lisp-mode-hook
             (lambda ()
