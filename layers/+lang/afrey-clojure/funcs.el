@@ -1,0 +1,8 @@
+(defun clojure/reload-current-clj-ns (next-p)
+  (interactive "P")
+  (let ((ns (clojure-find-ns)))
+    (message (format "Loading %s ..." ns))
+    (inf-clojure-eval-string (format "(require '%s :reload)" ns))
+    (when (not next-p)
+      (inf-clojure-eval-string (format "(in-ns '%s)" ns)))
+    (message nil)))
