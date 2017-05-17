@@ -8,7 +8,6 @@
 *** https://medium.com/feed/@ra
 *** http://inconvergent.net/atom.xml
 *** https://ericlippert.com/feed/
-*** http://www.tedunangst.com/inks/rss
 *** https://blogs.janestreet.com/author/yminsky/feed/
 *** http://www.tedunangst.com/flak/rss
 *** https://coreos.com/atom.xml
@@ -135,7 +134,6 @@
 *** http://www.martinklepsch.org/feed.xml
 *** http://feeds.cognitect.com/blog/feed.rss                                    :mustread:
 *** http://endlessparentheses.com/atom.xml
-*** http://feeds.feedburner.com/emptywheel/cAUy
 *** http://bartoszmilewski.com/feed/
 *** http://feeds.feedburner.com/conal
 *** http://brianmckenna.org/blog/feed
@@ -143,6 +141,7 @@
 *** https://medium.com/feed/@jlouis666
 *** http://joearms.github.io/feed.xml                                           :mustread:
 *** https://www.adamfrey.me/atom.xml
+*** https://blog.racket-lang.org/feeds/all.atom.xml
 *** Clojure                                                                     :clojure:
 **** http://www.lispcast.com/feed
 **** http://tonsky.me/blog/atom.xml                                             :mustread:
@@ -156,7 +155,7 @@
 **** http://jonase.github.io/nil-recur/feed.xml
 **** http://z.caudate.me/rss/
 **** http://clj-me.cgrand.net/feed/
-
+**** http://timothypratley.blogspot.com/feeds/posts/default
 *** Emacs                                                                       :emacs:
 **** http://www.masteringemacs.org/feed
 
@@ -181,6 +180,9 @@
 *** https://www.jacobinmag.com/category/blogs/feed/
 *** http://fivethirtyeight.com/economics/feed/
 *** http://www.interfluidity.com/feed
+
+*** http://feeds.feedburner.com/Consortiumnewscom
+*** http://feeds.feedburner.com/emptywheel/cAUy
 
 ** Sports                                                                       :sports:
 *** http://fivethirtyeight.com/sports/feed/
