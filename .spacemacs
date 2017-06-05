@@ -320,7 +320,11 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
+
+  ;; Windows
   (global-set-key (kbd "M-o") 'other-window)
+  (global-set-key "\M-1" 'delete-other-windows)
+
   (global-set-key (kbd "C-, ,") 'counsel-projectile-find-file)
   (global-set-key (kbd "C-, C-,") 'counsel-projectile-find-file)
   (whole-line-or-region-mode t)
@@ -331,6 +335,9 @@ you should place your code here."
   ;; Editing
   ;; (require 'hungry-delete)
   ;; (global-hungry-delete-mode)
+
+  (global-set-key "\M-9" 'backward-sexp)
+  (global-set-key "\M-0" 'forward-sexp)
 
   (add-hook 'prog-mode-hook 'paredit-everywhere-mode)
 
