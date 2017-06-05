@@ -360,7 +360,12 @@ you should place your code here."
   (setq css-indent-offset 2)
 
   ;; Org Mode
+  (setq org-agenda-files (list "~/Dropbox/org/todo.org"
+                               "~/Dropbox/org/refile.org"))
   (setq org-default-notes-file "~/Dropbox/org/refile.org")
+  (setq org-refile-targets '(("~/Dropbox/org/todo.org" :level . 1)
+                             ("~/Dropbox/org/comp-notes.org" :level . 1)
+                             ("~/Dropbox/org/notes.org" :level . 2)))
   (setq org-capture-templates
         `(("t" "todo" entry (file "")  ; "" => org-default-notes-file
            "* TODO %?\n%U\n" :clock-resume t)
