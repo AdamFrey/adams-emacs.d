@@ -15,7 +15,7 @@
   ;; this is only applicable to GUI mode
   (when (display-graphic-p)
     ;; Treat command as meta
-    (setq mac-command-key-is-meta nil) 
+    (setq mac-command-key-is-meta nil)
     (setq mac-command-modifier 'meta)
 
     (when osx-use-option-as-meta
