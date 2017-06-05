@@ -70,7 +70,8 @@ values."
                                       geiser
                                       hungry-delete
                                       paredit-everywhere
-                                      inf-clojure)
+                                      ;;(inf-clojure)
+                                      )
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
    ;; A list of packages that will not be installed and loaded.
@@ -353,6 +354,10 @@ you should place your code here."
   ;;       '((t . ivy--regex-fuzzy)))
 
   ;; Clojure
+  (load-file "~/.emacs.d/elpa/inf-clojure-1.4.0/inf-clojure.el")
+  (require 'inf-clojure)
+  (afrey-clojure/init-inf-clojure)
+  (clojure/post-init-eldoc)
 
   ;; CLJ Refactor
   (setq cljr-favor-prefix-notation nil)
