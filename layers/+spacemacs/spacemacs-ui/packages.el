@@ -19,7 +19,8 @@
         open-junk-file
         paradox
         restart-emacs
-        window-numbering))
+        ;;window-numbering
+        ))
 
 ;; Initialization of packages
 
