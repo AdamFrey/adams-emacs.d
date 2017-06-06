@@ -29,6 +29,8 @@
         (/ 0)
         (concat 0))
 
+      (add-to-list 'clojure-align-cond-forms "assoc")
+
       (dolist (m '(clojure-mode clojurec-mode clojurescript-mode clojurex-mode))
         (spacemacs/set-leader-keys-for-major-mode m
           "fl" 'clojure-align))
