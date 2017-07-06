@@ -30,6 +30,7 @@
         (concat 0))
 
       (add-to-list 'clojure-align-cond-forms "assoc")
+      (add-to-list 'clojure-align-cond-forms "given")
 
       (dolist (m '(clojure-mode clojurec-mode clojurescript-mode clojurex-mode))
         (spacemacs/set-leader-keys-for-major-mode m
