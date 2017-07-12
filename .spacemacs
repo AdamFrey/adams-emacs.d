@@ -357,9 +357,9 @@ you should place your code here."
   ;;       '((t . ivy--regex-fuzzy)))
 
   ;; Clojure
-  (load-file "~/.emacs.d/elpa/inf-clojure-1.4.0/inf-clojure.el")
-  (require 'inf-clojure)
-  (afrey-clojure/init-inf-clojure)
+  ;;(load-file "~/.emacs.d/elpa/inf-clojure-1.4.0/inf-clojure.el")
+  ;;(require 'inf-clojure)
+  ;;(afrey-clojure/init-inf-clojure)
   (clojure/post-init-eldoc)
 
   ;; CLJ Refactor
