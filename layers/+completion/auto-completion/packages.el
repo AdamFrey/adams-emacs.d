@@ -204,7 +204,7 @@
                                                      "snippets"
                                                      dotspacemacs-directory))))
         (setq yas-snippet-dirs nil)
-        ;; ~/.emacs.d/layers/auto-completion/snippets
+        ;; ~/.emacs.d/layers/+completion/auto-completion/local/snippets
         (push spacemacs-layer-snippets-dir yas-snippet-dirs)
         ;; ~/.emacs.d/elpa/yasnippet-xxxxx/snippets
         (push 'yas-installed-snippets-dir yas-snippet-dirs)

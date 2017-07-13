@@ -82,7 +82,7 @@ you don't use it already.
 ** Snippets directories
 The following directories are added by default:
 - ~/.emacs.d/elpa/yasnippet-xxxxx/snippets
-- ~/.emacs.d/layers/auto-completion/snippets
+- ~/.emacs.d/layers/+completion/auto-completion/local/snippets
 - ~/.emacs.d/private/snippets (conditional to the value of =auto-completion-private-snippets-directory=)
 - ~/.spacemacs.d/snippets (conditional to the existence of =~/.spacemacs.d= directory)
 
