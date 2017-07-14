@@ -1,0 +1,4 @@
+# name: pprint-repl
+# key: pprepl
+# --
+(clojure.main/repl clojure.pprint/pprint)
