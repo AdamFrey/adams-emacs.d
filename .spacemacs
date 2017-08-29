@@ -344,8 +344,8 @@ you should place your code here."
   (global-set-key (kbd "C-, d") 'sdcv-search-input)
 
   ;; Editing
-  ;; (require 'hungry-delete)
-  ;; (global-hungry-delete-mode)
+  (require 'hungry-delete)
+  (global-hungry-delete-mode)
 
   (defun comment-header (b e)
     "Turns the current line into a comment header. Right now it
