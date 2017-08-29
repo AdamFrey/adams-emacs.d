@@ -63,6 +63,7 @@ values."
      ;; spell-checking
      (elfeed :variables rmh-elfeed-org-files (list "~/.emacs.d/elfeed.org"))
      syntax-checking
+     (shell :variables shell-default-shell 'eshell)
      version-control
      yaml
      )
