@@ -217,6 +217,9 @@
               (setq yas-snippet-dirs (append yas-snippet-dirs private-yas-dir))
             (push private-yas-dir yas-snippet-dirs))))
 
+
+      (define-key yas-minor-mode-map (kbd "<C-tab>") 'yas-expand)
+
       (spacemacs/add-to-hooks 'spacemacs/load-yasnippet '(prog-mode-hook
                                                           markdown-mode-hook
                                                           org-mode-hook))
