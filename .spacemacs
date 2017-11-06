@@ -82,10 +82,20 @@ values."
                                       sdcv
                                       base16-theme
                                       ;;(inf-clojure)
-                                      (a
-                                       :location (recipe
-                                                  :fetcher github
-                                                  :repo "plexus/a.el"))
+                                      ;; (a
+                                      ;;  :location (recipe
+                                      ;;             :fetcher github
+                                      ;;             :repo "plexus/a.el"))
+
+                                      ;; (parseedn
+                                      ;;  :location (recipe
+                                      ;;             :fetcher github
+                                      ;;             :repo "lambdaisland/parseclj"))
+
+                                      ;; (parseclj
+                                      ;;  :location (recipe
+                                      ;;             :fetcher github
+                                      ;;             :repo "lambdaisland/parseclj"))
                                       
                                       )
    ;; A list of packages that cannot be updated.
@@ -389,7 +399,7 @@ only works for semicolons."
   ;; Clojure
   ;;(load-file "~/.emacs.d/elpa/inf-clojure-1.4.0/inf-clojure.el")
   ;;(require 'inf-clojure)
-  ;;(afrey-clojure/init-inf-clojure)
+  ;;(afrey-clojure/init-inf-clojure-mode)
   (clojure/post-init-eldoc)
 
   ;; CLJ Refactor
