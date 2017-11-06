@@ -520,8 +520,9 @@ Headline^^            Visit entry^^               Filter^^                    Da
           (push (org-projectile:project-todo-entry
                  nil nil nil :empty-lines 1)
                 org-capture-templates))
-      (org-projectile:per-repo)
-      (setq org-projectile:per-repo-filename org-projectile-file))))
+      (org-projectile-per-project)
+      ;;(setq org-projectile:per-repo-filename org-projectile-file)
+      )))
 
 (defun org/init-ox-twbs ()
   (spacemacs|use-package-add-hook org :post-config (require 'ox-twbs)))
