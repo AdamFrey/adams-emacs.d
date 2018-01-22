@@ -6,17 +6,9 @@
         clj-refactor
         org))
 
-
-
 (defmacro comment (&rest body)
   "Comment out one or more s-expressions."
   nil)
-
-
-(defun afrey-clojure-indent-region ()
-  (interactive)
-  (shell-command-on-region (point-min) (point-max) "zp" nil t)
-  (message "Aligned"))
 
 
 (defun afrey-clojure-double-newlines ()
@@ -40,13 +32,28 @@
       (while (re-search-forward "[^\s\n]\\(\s+\\)" nil t)
         (replace-match " " nil nil nil 1)))))
 
+(defvar format-clojure-community? t "If true, will format in the community mode before saving clojure files")
+
+(defun toggle-community-clojure-indent ()
+  (interactive)
+  (if format-clojure-community?
+      (progn
+        (message "format-clojure-community? set to false")
+        (setq format-clojure-community? nil))
+    (progn
+      (message "format-clojure-community? set to true")
+      (setq format-clojure-community? t))))
+
 (defun afrey-clojure-format-community ()
-  (save-excursion
-    (let ((clojure-defun-style-default-indent nil))
-      (indent-region (point-min) (point-max)))
-    (afrey-clojure-unalign)
-    ;;(afrey-clojure-single-newline)
-    (delete-trailing-whitespace)))
+  (when format-clojure-community?
+    (let (value)
+      (dotimes (number 2 value)
+        (save-excursion
+          (let ((clojure-defun-style-default-indent nil))
+            (indent-region (point-min) (point-max)))
+          (afrey-clojure-unalign)
+          ;;(afrey-clojure-single-newline)
+          (delete-trailing-whitespace))))))
 
 (defun clojure-format-afrey ()
   (save-excursion ;; do my mode
@@ -60,7 +67,7 @@
   (interactive "P")
   (if (equal arg '(4))
       (afrey-clojure-format-community)
-      (clojure-format-afrey)))
+    (clojure-format-afrey)))
 
 (global-set-key (kbd "C-c C-t") 'interactive-clojure-format)
 
@@ -73,7 +80,7 @@
   (add-hook 'before-save-hook
             'afrey-clojure-format-community
             nil 'local)
- 
+  
   (add-hook 'after-save-hook
             'clojure-format-afrey
             nil 'local)
