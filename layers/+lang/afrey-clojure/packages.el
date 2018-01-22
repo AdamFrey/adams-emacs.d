@@ -99,8 +99,6 @@
       ;; This regexp matches shebang expressions like `#!/usr/bin/env boot'
       (add-to-list 'magic-mode-alist '("#!.*boot\\s-*$" . clojure-mode))
 
-      (load "~/projects/unrepl.el/unrepl-writer.el")
-      (load "~/projects/unrepl.el/unrepl.el")
       (setq debug-on-error t))
     :config
     (progn
@@ -211,27 +209,20 @@
       (add-hook 'clojure-mode-hook 'inf-clojure-minor-mode)
       (add-hook 'clojurescript-mode-hook 'inf-clojure-minor-mode))))
 
-(defun generate-inf-clojure-proc-name ()
-  (or (afrey/inf-clojure-project-repl-name)
-      "inf-clojure"))
-
 ;;;###autoload
-
-;;  "Returns the current inferior Clojure process.
-;; See variable `inf-clojure-buffer'."
-(comment
- (defun inf-clojure-proc ()
-   (let ((proc (get-buffer-process (if (derived-mode-p 'inf-clojure-mode)
-                                       (current-buffer)
-                                     (or (afrey/inf-clojure-project-repl-buffer-name)
-                                         inf-clojure-buffer)))))
-     (or proc
-         (error "No Clojure subprocess; see variable!! `inf-clojure-buffer'")))))
-
 
 (defun clojure/post-init-eldoc ()
   (add-hook 'clojure-mode-hook 'eldoc-mode)
   (add-hook 'inf-clojure-mode-hook 'eldoc-mode))
+
+;; Spiral
+
+(defun afrey-clojure/init-spiral ()
+  (use-package spiral
+    :defer t
+    :config
+    (progn
+      (add-hook 'spiral-repl-mode #'paredit-mode))))
 
 
 (defun afrey-clojure/pre-init-org ()
