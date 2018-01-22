@@ -199,7 +199,7 @@
   (let ((ns (clojure-find-ns)))
     (print (format (inf-clojure-set-ns-form) ns))
     (comint-simple-send (inf-clojure-proc)
-                       (format (inf-clojure-set-ns-form) ns))))
+                        (format (inf-clojure-set-ns-form) ns))))
 
 (defun afrey-clojure/init-inf-clojure ()
   (use-package inf-clojure
