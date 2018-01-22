@@ -129,7 +129,8 @@
           "fl" 'clojure-align))
 
       (dolist (m '(clojure-mode-hook clojurescript-mode-hook))
-        (add-hook m #'paredit-mode))
+        (add-hook m #'paredit-mode)
+        (add-hook m #'company-mode))
 
       (add-hook 'clojure-mode-hook #'add-clojure-save-hooks)
 
