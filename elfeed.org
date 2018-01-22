@@ -89,7 +89,6 @@
 *** http://gbracha.blogspot.com/feeds/posts/default
 *** http://evanjones.ca/index.rss
 *** http://tomasp.net/rss.xml
-*** http://michaelochurch.wordpress.com/feed/
 *** http://ryanwaggoner.com/feed/rss/
 *** http://chromaticleaves.com/rss.xml
 *** http://scattered-thoughts.net/atom.xml
@@ -156,13 +155,14 @@
 **** http://z.caudate.me/rss/
 **** http://clj-me.cgrand.net/feed/
 **** http://timothypratley.blogspot.com/feeds/posts/default
+**** https://whilo.github.io/feed.xml
 *** Emacs                                                                       :emacs:
 **** http://www.masteringemacs.org/feed
 
 **** http://emacsredux.com/atom.xml
 **** http://planet.emacsen.org/atom.xml
 **** http://oremacs.com/atom.xml
-
+**** https://manuel-uberti.github.io/feed
 *** http://blog.fogus.me/feed/                                                  :mustread:
 
 ** Politics                                                                     :politics:
@@ -185,4 +185,3 @@
 *** http://feeds.feedburner.com/emptywheel/cAUy
 
 ** Sports                                                                       :sports:
-*** http://fivethirtyeight.com/sports/feed/
