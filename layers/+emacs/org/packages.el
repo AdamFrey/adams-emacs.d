@@ -80,18 +80,18 @@
   (spacemacs|use-package-add-hook mu4e
     :post-config (require 'org-mu4e nil 'noerror)))
 
-;; (defun org/init-ob ()
-;;   (use-package ob
-;;     :defer t
-;;     :init
-;;     (progn
-;;       (defun spacemacs//org-babel-do-load-languages ()
-;;         "Load all the languages declared in `org-babel-load-languages'."
-;;         (org-babel-do-load-languages 'org-babel-load-languages
-;;                                      org-babel-load-languages))
-;;       (add-hook 'org-mode-hook 'spacemacs//org-babel-do-load-languages)
-;;       ;; Fix redisplay of inline images after a code block evaluation.
-;;       (add-hook 'org-babel-after-execute-hook 'spacemacs/ob-fix-inline-images))))
+(defun org/init-ob ()
+  (use-package ob
+    :defer t
+    :init
+    (progn
+      (defun spacemacs//org-babel-do-load-languages ()
+        "Load all the languages declared in `org-babel-load-languages'."
+        (org-babel-do-load-languages 'org-babel-load-languages
+                                     org-babel-load-languages))
+      (add-hook 'org-mode-hook 'spacemacs//org-babel-do-load-languages)
+      ;; Fix redisplay of inline images after a code block evaluation.
+      (add-hook 'org-babel-after-execute-hook 'spacemacs/ob-fix-inline-images))))
 
 (defun org/init-org ()
   (use-package org
